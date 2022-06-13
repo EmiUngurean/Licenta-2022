@@ -1,10 +1,10 @@
 import './App.css';
 import Header  from './components/Navbar/header';
 import Footer from './components/Navbar/footer';
-import Carousel from './components/carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CarouselHomePage from './components/carousel';
-import Home from './components/home'
+import Home from './components/home';
+import HomePage from './components/homePage';
 
 function App() {
   return (
@@ -12,9 +12,7 @@ function App() {
       <Header /> 
       <CarouselHomePage/> 
       <Home />
-      <Home />
-      <Home />
-      <Home />
+      <HomePage />
       <Footer />
     </div>
   );

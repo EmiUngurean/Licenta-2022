@@ -75,7 +75,7 @@
     /* home */
     
     .home {
-        padding: 30px;
+        padding: 20px;
     }
     
     .card {
@@ -87,4 +87,43 @@
     .cardImage {
         width: 300px;
         height: 200px;
+    }
+    
+    .button {
+        background-color: #192041;
+    }
+    /* homePage */
+    
+    .carousel-inner>.item>img {
+        width: 640px;
+        height: 360px;
+    }
+    
+    .imageText {
+        padding: 10px;
+        width: 100%;
+        border: 1px solid red;
+        background: url(../src/assets/bodyHomePage/cantina4.jpg) center no-repeat;
+        /* opacity: 0.3; */
+    }
+    
+    .imgCantina {
+        padding: 10px;
+        border-radius: 5px;
+        width: 600px !important;
+        height: auto;
+        position: relative;
+        left: 80px;
+        top: 10px;
+        margin: 30px;
+    }
+    
+    .textImgCantina {
+        position: relative;
+        width: 600px;
+        left: 700px;
+        bottom: 250px;
+        font: 1.3em sans-serif;
+        color: white;
+        border: 1px solid black;
     }
