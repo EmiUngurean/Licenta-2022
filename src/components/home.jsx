@@ -19,7 +19,7 @@ const Home = () => {
                 </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }}>
-                <Card.Img className='cardImage' variant="left" src={image2} />
+                <Card.Img className='cardImage' variant="top" src={image2} />
                 <Card.Body>
                     <Card.Title>Băuturi</Card.Title>
                     <Card.Text>Te așteptăm să încerci și băuturile noastre, care-ți vor face zilele mai pline de viață.</Card.Text>

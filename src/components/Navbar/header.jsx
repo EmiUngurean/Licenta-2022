@@ -48,7 +48,7 @@ const Header = () => {
         <div className='nav-down'>
           <Navbar  collapseOnSelect expand="lg" variant="dark" >
           <Container>
-            <Navbar.Brand href="#home">USV Food</Navbar.Brand>
+            <Navbar.Brand href="/ ">USV Food</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
@@ -69,9 +69,9 @@ const Header = () => {
                 </NavDropdown>
               </Nav>
           <Nav>
-          <Nav.Link href="#mycart">Coșul meu</Nav.Link>
-            <Nav.Link href="#aboutus">Despre noi</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+          <Nav.Link href="/mycart">Coșul meu</Nav.Link>
+            <Nav.Link href="/about">Despre noi</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

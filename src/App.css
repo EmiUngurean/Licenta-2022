@@ -1,129 +1,163 @@
-    .App {
-        text-align: center;
-    }
-    
+.App {
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+@media (prefers-reduced-motion: no-preference) {
     .App-logo {
-        height: 40vmin;
-        pointer-events: none;
+        animation: App-logo-spin infinite 20s linear;
     }
-    
-    @media (prefers-reduced-motion: no-preference) {
-        .App-logo {
-            animation: App-logo-spin infinite 20s linear;
-        }
+}
+
+
+/* .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+} */
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
     }
-    
-    .App-header {
-        background-color: #282c34;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: calc(10px + 2vmin);
-        color: white;
+    to {
+        transform: rotate(360deg);
     }
-    
-    .App-link {
-        color: #61dafb;
-    }
-    
-    @keyframes App-logo-spin {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(360deg);
-        }
-    }
-    /* header */
-    
-    .header {
-        width: 100%;
-        height: 70px;
-        background-color: #192041;
-        position: fixed;
-        top: 0;
-        transition: top 0.2s ease-in-out;
-        z-index: 1;
-    }
-    
-    .nav-up {
-        top: -70px;
-    }
-    /* footer */
-    
-    .footer1 {
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 50px;
-        text-align: center;
-        color: white;
-        background-color: #192041;
-    }
-    /* carousel */
-    
-    .carouselFirstSlide {
-        width: 100%;
-        background: url(../src/assets/carousel/usv2.jpg) center center;
-    }
-    
-    .h1Carousel {
-        text-align: center;
-    }
-    /* home */
-    
-    .home {
-        padding: 20px;
-    }
-    
-    .card {
-        margin: 0 auto;
-        float: none;
-        margin-bottom: 10px;
-    }
-    
-    .cardImage {
-        width: 300px;
-        height: 200px;
-    }
-    
-    .button {
-        background-color: #192041;
-    }
-    /* homePage */
-    
-    .carousel-inner>.item>img {
+}
+
+
+/* header */
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #192041;
+    position: sticky;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    z-index: 1;
+}
+
+.nav-up {
+    top: -70px;
+}
+
+
+/* footer */
+
+.footer1 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: #192041;
+}
+
+
+/* carousel */
+
+.carouselFirstSlide {
+    width: 100%;
+    background: url(../src/assets/carousel/usv2.jpg) center center;
+}
+
+.h1Carousel {
+    text-align: center;
+}
+
+
+/* home */
+
+.home {
+    padding: 20px;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.cardImage {
+    width: 300px;
+    height: 200px;
+}
+
+.button {
+    background-color: #192041;
+}
+
+
+/* homePage */
+
+
+/* .carousel-inner>.item>img {
         width: 640px;
         height: 360px;
-    }
-    
-    .imageText {
-        padding: 10px;
-        width: 100%;
-        border: 1px solid red;
-        background: url(../src/assets/bodyHomePage/cantina4.jpg) center no-repeat;
-        /* opacity: 0.3; */
-    }
-    
-    .imgCantina {
-        padding: 10px;
-        border-radius: 5px;
-        width: 600px !important;
-        height: auto;
-        position: relative;
-        left: 80px;
-        top: 10px;
-        margin: 30px;
-    }
-    
-    .textImgCantina {
-        position: relative;
-        width: 600px;
-        left: 700px;
-        bottom: 250px;
-        font: 1.3em sans-serif;
-        color: white;
-        border: 1px solid black;
-    }
+    } */
+
+
+/* .bgImage {
+    padding: 10px;
+    width: 100%;
+    background: url(../src/assets/bodyHomePage/cantina4.jpg) center no-repeat;
+} */
+
+.imgCantina {
+    padding: 10px;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    /* position: relative;
+    left: 10px;
+    top: 10px;
+    margin: 10px; */
+}
+
+.textImgCantina {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    font: 1.2em;
+    color: black;
+    float: right;
+    position: relative;
+    right: 100px;
+    top: 100px;
+}
+
+.imag {
+    top: 10px;
+    background: url(../src/assets/bodyHomePage/cantina42.png) center;
+}
+
+
+/* gallery */
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

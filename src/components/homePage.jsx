@@ -1,38 +1,24 @@
 import React from 'react';
 import img from '../assets/bodyHomePage/cantina1.jpg';
-import img1 from '../assets/bodyHomePage/cantina2.jpg';
-import img2 from '../assets/bodyHomePage/cantina3.jpg';
-import { Carousel } from 'react-bootstrap';
 
 const HomePage = () => {
   return (
-    <div className='cont'>
-        <div className='imageText'>
-            <div className='row'>
-                <div className='homePage'>
-                    <div className='imageCantina'>
-                    <Carousel className="carousel-inner">
-                        <Carousel.Item>  
-                            <img className='item' src={img} alt="CarouselHomePageSecondPhoto"/>
-                        </Carousel.Item>
-                        <Carousel.Item>  
-                            <img className='item' src={img1} alt="CarouselHomePageSecondPhoto"/>
-                        </Carousel.Item> 
-                        <Carousel.Item>  
-                            <img className='item' src={img2} alt="CarouselHomePageSecondPhoto"/>
-                        </Carousel.Item>
-                    </Carousel>     
-                        <div className='textImgCantina'>
-                            <p> Servire prânz și cină "à la carte"
-                                Preț mediu 2 mese: 35 lei
-                                Meniul zilnic este prezentat la avizierul restaurantului.
-                            </p>
-                        </div>                              
-                    </div>
-                </div>
-            </div> 
-        </div>   
-    </div>
+    <div className='continer'>
+        <div className='imag'>
+        <img className='imgCantina' src={img} alt="imagine cantina" /> 
+          <div className='textImgCantina'>   
+             <h3>Restaurant USV</h3>
+             <p>Localizat în campusul Universității ”Ștefan cel Mare” Suceava, restaurantul USV vă pune înaintea dvs. o gama variata de mâncăruri
+                calde, accesibile pentru buzunarul fiecărui student.
+                Noi oferim servirea prânzului și a cinei in sistem „à la carte”.<br/>
+                <br/> 
+                Vino și convinge-te chiar singur!   
+                      
+            </p>
+            <hr />        
+         </div>
+        </div>
+    </div>          
   )
 }
 
