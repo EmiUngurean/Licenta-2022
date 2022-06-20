@@ -37,18 +37,57 @@
 
 /* header */
 
-.header {
+
+/* .navbar {
     width: 100%;
     height: 70px;
     background-color: #192041;
     position: sticky;
     top: 0;
     transition: top 0.2s ease-in-out;
-    z-index: 1;
+    z-index: 10000;
 }
 
 .nav-up {
     top: -70px;
+}
+
+.tab {
+    margin-left: 2.5em;
+}
+
+.tab1 {
+    position: relative;
+    left: 400px;
+} */
+
+.navbar {
+    background-color: #192041;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s ease-in-out;
+}
+
+.navbar tab {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar tab:hover {
+    background-color: white;
+    color: black;
+}
+
+.tab1 {
+    position: relative;
+    left: 100%;
 }
 
 
@@ -160,4 +199,30 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.galleryImage {
+    width: 70%;
+}
+
+
+/* contact */
+
+.contact {
+    margin: 54px;
+}
+
+.contactImage {
+    float: right;
+    width: 100%;
+    margin: 20px;
+}
+
+.info {
+    margin: 10px;
+}
+
+#info {
+    position: relative;
+    top: 60px;
 }

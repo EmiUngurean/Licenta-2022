@@ -5,7 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/home';
 import HomeComponent from './components/homeComponent'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import GalleryHomePage from './components/gallery';
+import Contact from './components/contact/contact';
+import Ciorbe from './components/meniu/ciorbe';
 
 function App() {
   return (
@@ -14,11 +15,12 @@ function App() {
       <div className="App">
       <Header />
        <Routes>
-         <Route exact path='/' element={<HomeComponent/>}></Route>
-         <Route exact path='/mycart' element={<Home/>}></Route>
+         <Route exact path='/' element={<HomeComponent/>}></Route>   
+         <Route exact path='/cosulmeu' element={<Home/>}></Route>
+         <Route path='/contact' element={<Contact/>}></Route>
+         <Route path='/ciorbe' element={<Ciorbe/>}></Route>
        </Routes>
-       <Home />
-        <GalleryHomePage/> 
+    
        <Footer />
       </div>
      </Router>
