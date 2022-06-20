@@ -187,32 +187,56 @@
 
 .column {
     float: left;
-    width: 50%;
+    width: 50% !important;
     padding: 10px;
 }
 
-.column img {
-    margin-top: 12px;
+#row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+#column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+#column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    #column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
 
 .galleryImage {
-    width: 70%;
+    width: 100%;
 }
 
 
 /* contact */
 
-.contact {
-    margin: 54px;
+.contact,
+.despre {
+    margin: 50px;
 }
 
-.contactImage {
+.contactImage,
+.despreImage {
     float: right;
     width: 100%;
     margin: 20px;
@@ -224,5 +248,26 @@
 
 #info {
     position: relative;
-    top: 60px;
+    top: 80px;
 }
+
+
+/* despreNoi */
+
+#infoDespre {
+    position: relative;
+    top: 80px;
+}
+
+.infoDespre {
+    margin: 10px;
+}
+
+.galerieDespreNoi {
+    padding: 30px;
+}
+
+
+/* .despre {
+    background: url(../src/assets/bodyHomePage/cantina42.png) center;
+} */

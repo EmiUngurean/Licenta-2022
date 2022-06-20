@@ -5,17 +5,27 @@ import img12 from '../assets/galleryImages/cantina11.jpg'
 
 const GalleryHomePage = () => {
     return (
-        <div className='conta'>
+        <div className='container'>
             <h1 className='h1Gallery'>Galerie Foto</h1>
             <hr />
-            <div className='row'>
-                <div className='column'>
+            <div className='row' id='row'>
+                <div className='column' id='column'>
                     <img className='galleryImage' src={img11} alt="Cinque Terre" />
                 </div>
-
-                <div className='column'>
+                <div className='column' id='column'>
                     <img className='galleryImage' src={img12} alt="Cinque Terre" />
-              
+                </div>
+                <div className='column' id='column'>
+                    <img className='galleryImage' src={img12} alt="Cinque Terre" />
+                </div>
+                <div className='column' id='column'>
+                    <img className='galleryImage' src={img12} alt="Cinque Terre" />
+                </div>
+                <div className='column' id='column'>
+                    <img className='galleryImage' src={img12} alt="Cinque Terre" />
+                </div>
+                <div className='column' id='column'>
+                    <img className='galleryImage' src={img12} alt="Cinque Terre" />
                 </div>
             </div>
         </div>

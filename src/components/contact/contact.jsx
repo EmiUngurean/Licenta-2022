@@ -11,11 +11,11 @@ const Contact = () => {
           <img src={contactImage} className='contactImage' alt="Contact Photo" />
           </div>
           <div className="column" id='info'>
-          <strong>Adresa: </strong> <p>Str. Universitatii nr. 13</p>
-          <strong>Zona: </strong>  <p>Campus</p>
+          <strong>Adresă: </strong> <p>Str. Universității nr. 13</p>
+          <strong>Zonă: </strong>  <p>Campus</p>
           <strong>Administrator: </strong>  <p>Loredana Leonte</p>
           <strong>Telefon administrator: </strong>  <p>0230/216147 interior 216</p>
-          <strong>Perioada de functionare: </strong>  <p>1 octombrie - 31 iulie  /  Luni - Vineri: 12:00-20:00  </p>
+          <strong>Perioada de funcționare: </strong>  <p>1 octombrie - 31 iulie  /  Luni - Vineri: 12:00-20:00  </p>
           </div>
           </div>    
         </div>

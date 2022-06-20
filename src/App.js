@@ -7,6 +7,7 @@ import HomeComponent from './components/homeComponent'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Contact from './components/contact/contact';
 import Ciorbe from './components/meniu/ciorbe';
+import Despre from './components/despreNoi/despre';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
          <Route exact path='/' element={<HomeComponent/>}></Route>   
          <Route exact path='/cosulmeu' element={<Home/>}></Route>
          <Route path='/contact' element={<Contact/>}></Route>
+         <Route path='/despreNoi' element={<Despre/>}></Route>
          <Route path='/ciorbe' element={<Ciorbe/>}></Route>
+
        </Routes>
     
        <Footer />

@@ -12,7 +12,7 @@ const HomeComponent = () => {
         <Home/>
         <HomePage/>
         <Home/>
-        <GalleryHomePage/>
+        <GalleryHomePage/> 
 
     </div>
   )
