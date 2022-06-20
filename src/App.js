@@ -20,7 +20,9 @@ function App() {
          <Route exact path='/cosulmeu' element={<Home/>}></Route>
          <Route path='/contact' element={<Contact/>}></Route>
          <Route path='/despreNoi' element={<Despre/>}></Route>
-         <Route path='/ciorbe' element={<Ciorbe/>}></Route>
+         <Route path='/ciorbe' element={<Ciorbe/>}>
+         {/* <Route path='/ciorbe' element={<Ciorbe title="Ciorba radauteana" weight="400g" price="7.39"/>}> */}
+         </Route>
 
        </Routes>
     

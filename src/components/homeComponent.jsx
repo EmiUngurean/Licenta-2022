@@ -11,7 +11,7 @@ const HomeComponent = () => {
         <CarouselHomePage/>
         <Home/>
         <HomePage/>
-        <Home/>
+        {/* <Home/> */}
         <GalleryHomePage/> 
 
     </div>
