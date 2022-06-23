@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Contact from './components/contact/contact';
 import Ciorbe from './components/meniu/ciorbe';
 import Despre from './components/despreNoi/despre';
+import PreparatePuiApp from './components/meniu/preparatePuiApp';
+import PreparatePorc from './components/meniu/preparatePorc';
 
 function App() {
   return (
@@ -20,9 +22,9 @@ function App() {
          <Route exact path='/cosulmeu' element={<Home/>}></Route>
          <Route path='/contact' element={<Contact/>}></Route>
          <Route path='/despreNoi' element={<Despre/>}></Route>
-         <Route path='/ciorbe' element={<Ciorbe/>}>
-         {/* <Route path='/ciorbe' element={<Ciorbe title="Ciorba radauteana" weight="400g" price="7.39"/>}> */}
-         </Route>
+         <Route path='/ciorbe' element={<Ciorbe/>}></Route>
+         <Route path='/preparatePui' element={<PreparatePuiApp/>}></Route>
+         <Route path='/preparatePorc' element={<PreparatePorc/>}></Route>
 
        </Routes>
     

@@ -289,12 +289,32 @@
 
 /* ciorbe */
 
-.ciorbe {
+.ciorbe,
+.pui {
     padding: 20px;
 }
 
-.h1Ciorbe {
+.h1Ciorbe,
+.h1Preparate {
     padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+    font-family: 'georgia';
+    font-size: 50px;
+    text-shadow: 1px 1px;
+    background: url(../src/assets/bodyHomePage/cantina42.png) center;
+}
+
+
+/* preparate pui */
+
+.preparatePui {
+    margin-bottom: 10px;
+    padding-left: 80px;
+}
+
+.first {
+    border: 1px solid black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

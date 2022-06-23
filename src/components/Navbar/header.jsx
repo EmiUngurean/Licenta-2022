@@ -8,7 +8,6 @@ import { NavDropdown } from 'react-bootstrap';
 
 const Header = () => {
 
-
   return (
     <div className="navbar">
       <div className='container'>
@@ -21,9 +20,8 @@ const Header = () => {
               <Nav className="me-auto">
             
                 <NavDropdown className='tab' title="Meniu" id="collasible-nav-dropdown">
-                  <NavDropdown.Item href="/ciorbe">Ciorbe  </NavDropdown.Item>
+                  <NavDropdown.Item href="/ciorbe">Ciorbe/Supe  </NavDropdown.Item>
                   <NavDropdown.Item href="/preparatepui">Preparate de pui</NavDropdown.Item>
-                  <NavDropdown.Item href="/gratarpui">Grătar de pui/porc</NavDropdown.Item>
                   <NavDropdown.Item href="/preparateporc">Preparate de porc</NavDropdown.Item>
                   <NavDropdown.Item href="/preparatepeste">Preparate din pește</NavDropdown.Item>
                   <NavDropdown.Item href="preparatelegume">Preparate legume</NavDropdown.Item>
@@ -53,7 +51,7 @@ const Header = () => {
   )
 }
 
-var prevScrollpos = window.pageYOffset;
+{ /*var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
@@ -63,5 +61,6 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+*/}
 
 export default Header
