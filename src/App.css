@@ -290,12 +290,15 @@
 /* ciorbe */
 
 .ciorbe,
-.pui {
-    padding: 20px;
+.pui,
+.porc,
+.vita,
+.peste {
+    padding: 10px;
 }
 
 .h1Ciorbe,
-.h1Preparate {
+.h1Produse {
     padding: 20px;
     font-family: 'georgia';
     font-size: 50px;

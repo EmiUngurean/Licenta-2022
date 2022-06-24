@@ -8,15 +8,13 @@ import ph6 from '../../assets/meniu/ciorbe/ciorba-de-perisoare.jpg';
 import ph7 from '../../assets/meniu/ciorbe/ciorba-de-burta.jpg';
 import ph8 from '../../assets/meniu/ciorbe/supa-de-pui.jpg';
 import ph9 from '../../assets/meniu/ciorbe/supa-rosii-busuioc.jpg';
-import image2 from '../../assets/cards-images/expresso2.jpg';
-import image4 from '../../assets/cards-images/clatite3.jpg';
 import  {Card}  from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
 
 const Ciorbe = (props) => {
   return (
     <div className="ciorbe" >
-      <h1 className='h1Ciorbe'> Ciorbe și supe</h1>
+      <h1 className='h1Produse'> Ciorbe și supe</h1>
       <hr />
     <div className='container'>
         <div className='row'>

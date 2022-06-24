@@ -23,8 +23,8 @@ const Header = () => {
                   <NavDropdown.Item href="/ciorbe">Ciorbe/Supe  </NavDropdown.Item>
                   <NavDropdown.Item href="/preparatepui">Preparate de pui</NavDropdown.Item>
                   <NavDropdown.Item href="/preparateporc">Preparate de porc</NavDropdown.Item>
+                  <NavDropdown.Item href="/preparatevita">Preparate din vită</NavDropdown.Item>
                   <NavDropdown.Item href="/preparatepeste">Preparate din pește</NavDropdown.Item>
-                  <NavDropdown.Item href="preparatelegume">Preparate legume</NavDropdown.Item>
                   <NavDropdown.Item href="/garnituri">Garnituri</NavDropdown.Item>
                   <NavDropdown.Item href="/salate">Salate</NavDropdown.Item>
                   <NavDropdown.Item href="/produseetra">Produse extra</NavDropdown.Item>

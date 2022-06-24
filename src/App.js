@@ -10,6 +10,9 @@ import Ciorbe from './components/meniu/ciorbe';
 import Despre from './components/despreNoi/despre';
 import PreparatePuiApp from './components/meniu/preparatePuiApp';
 import PreparatePorc from './components/meniu/preparatePorc';
+import PreparateVita from './components/meniu/preparateVita';
+import PreparatePeste from './components/meniu/preparatePeste';
+import Garnituri from './components/meniu/garnituri';
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
          <Route path='/ciorbe' element={<Ciorbe/>}></Route>
          <Route path='/preparatePui' element={<PreparatePuiApp/>}></Route>
          <Route path='/preparatePorc' element={<PreparatePorc/>}></Route>
+         <Route path='/preparateVita' element={<PreparateVita/>}></Route>
+         <Route path='/preparatePeste' element={<PreparatePeste/>}></Route>
+         <Route path='/garnituri' element={<Garnituri/>}></Route>
 
        </Routes>
     

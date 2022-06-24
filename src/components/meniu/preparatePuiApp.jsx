@@ -17,7 +17,7 @@ import CardProduse from './cardProduse';
 const PreparatePuiApp = (props) => {
   return (
     <div className="pui">
-        <h1 className='h1Preparate' >Preparate din carne de pui</h1>
+        <h1 className='h1Produse' >Preparate din carne de pui</h1>
                 <hr />
             <div className='container'>     
                 <div className="row">
