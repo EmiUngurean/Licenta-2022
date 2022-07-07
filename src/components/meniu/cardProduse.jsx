@@ -3,6 +3,7 @@ import  {Card}  from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
 
 
+
 const CardProduse = (props) => {
   return (
     <div className='preparatePui'>
@@ -14,7 +15,7 @@ const CardProduse = (props) => {
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>Greutate: {props.weight} g</Card.Text>
                 <Card.Text>Pret: {props.price} lei</Card.Text>
-                <Button style={{backgroundColor: '#192041'}}>Comandă</Button>
+                <Button style={{backgroundColor: '#192041'}}>Adaugă în coș</Button>
                 </Card.Body>
                 </Card> 
             </div> 
@@ -23,4 +24,4 @@ const CardProduse = (props) => {
   )
 }
 
-export default CardProduse
+export default CardProduse  

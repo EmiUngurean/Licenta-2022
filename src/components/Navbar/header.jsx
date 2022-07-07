@@ -18,7 +18,6 @@ const Header = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
-            
                 <NavDropdown className='tab' title="Meniu" id="collasible-nav-dropdown">
                   <NavDropdown.Item href="/ciorbe">Ciorbe/Supe  </NavDropdown.Item>
                   <NavDropdown.Item href="/preparatepui">Preparate de pui</NavDropdown.Item>
@@ -26,21 +25,21 @@ const Header = () => {
                   <NavDropdown.Item href="/preparatevita">Preparate din vită</NavDropdown.Item>
                   <NavDropdown.Item href="/preparatepeste">Preparate din pește</NavDropdown.Item>
                   <NavDropdown.Item href="/garnituri">Garnituri</NavDropdown.Item>
+                  <NavDropdown.Item href="/altePreparate">Alte preparate</NavDropdown.Item>
                   <NavDropdown.Item href="/salate">Salate</NavDropdown.Item>
-                  <NavDropdown.Item href="/produseetra">Produse extra</NavDropdown.Item>
-                  <NavDropdown.Item href="/deserturi">Deserturi</NavDropdown.Item>
+                  <NavDropdown.Item href="/produseextra">Produse extra</NavDropdown.Item>
+                  <NavDropdown.Item href="/desert">Deserturi</NavDropdown.Item>
                   <NavDropdown.Item href="/bauturi">Băuturi</NavDropdown.Item>
                   <NavDropdown.Divider />
                 </NavDropdown>
               </Nav>
-            
             <Nav>
           <Nav.Link className='tab' href="/cosulMeu">Coșul meu</Nav.Link>
             <Nav.Link className='tab' href="/despreNoi">Despre noi</Nav.Link>
             <Nav.Link className='tab' href="/contact">Contact</Nav.Link>
          
-            <Nav.Link className='tab1'>Conectare</Nav.Link> 
-            <Nav.Link className='tab1'>Înregistrare</Nav.Link> 
+            <Nav.Link className='tab1' href='/conectare'>Conectare</Nav.Link> 
+            <Nav.Link className='tab1' href='/register'></Nav.Link> 
           </Nav>     
         </Navbar.Collapse>
       </Container>

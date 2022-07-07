@@ -26,10 +26,10 @@ const PreparatePuiApp = (props) => {
                 <CardProduse title='Aripioare de pui' image={pp4} weight='2 buc.' price='5.60'/>
                 <CardProduse title='Piept de pui gratinat' image={pp5} weight='200' price='10.22'/>
                 <CardProduse title='Pulpe de pui cu os' image={pp6} weight='1 buc.' price='5.81'/>
-                <CardProduse title='Pulpe de pui dezosate la grătar' image={pp7} weight='1 buc. ' price='6.73'/>
                 <CardProduse title='Pulpe de pui inferioare' image={pp8} weight='1 buc.' price='4.23'/>
                 <CardProduse title='Pui rotisat' image={pp9} weight='1/2 buc. ' price='20.5'/>
                 <CardProduse title='Ostropel de pui' image={pp10} weight='120/100' price='6.57'/>
+                <CardProduse title='Pulpe de pui dezosate la grătar' image={pp7} weight='1 buc. ' price='6.73'/>
                 <CardProduse title='Cordon bleau' image={pp11} weight='120' price='8.36'/>
                 <CardProduse title='Piept de pui pane cu cașcaval' image={pp1} weight='110' price='6.92'/>
                 <CardProduse title='Puple de pui cu smântână' image={pp12} weight='1 buc.' price='7.36'/>

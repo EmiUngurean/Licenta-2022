@@ -33,7 +33,7 @@ const Ciorbe = (props) => {
                 <Card.Title>Ciorbă de cartofi</Card.Title>
                 <Card.Text>Greutate: 400g</Card.Text>
                 <Card.Text>Preț: 5.32 lei</Card.Text>
-                <Button style={{backgroundColor: '#192041'}}>Comandă</Button>
+                <Button style={{backgroundColor: '#192041'}}>Adaugă în coș</Button>
             </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -42,7 +42,7 @@ const Ciorbe = (props) => {
                 <Card.Title>Ciorbă rădăuțeană</Card.Title>
                 <Card.Text>Greutate: 400g</Card.Text>
                 <Card.Text>Preț: 7.31 lei</Card.Text>
-                <Button style={{backgroundColor: '#192041'}}>Comandă</Button>
+                <Button style={{backgroundColor: '#192041'}}>Adaugă în coș</Button>
             </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -51,7 +51,7 @@ const Ciorbe = (props) => {
                 <Card.Title>Ciorbă de pui a la grec</Card.Title>
                 <Card.Text>Greutate: 400g</Card.Text>
                 <Card.Text>Preț: 6.69 lei</Card.Text>
-                <Button style={{backgroundColor: '#192041'}}>Comandă</Button>
+                <Button style={{backgroundColor: '#192041'}}>Adaugă în coș</Button>
             </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -60,7 +60,7 @@ const Ciorbe = (props) => {
                 <Card.Title>Ciorbă de fasole</Card.Title>
                 <Card.Text>Greutate: 400g</Card.Text>
                 <Card.Text>Preț: 4.89 lei</Card.Text>
-                <Button style={{backgroundColor: '#192041'}}>Comandă</Button>
+                <Button style={{backgroundColor: '#192041'}}>Adaugă în coș</Button>
             </Card.Body>
         </Card>
         <Card style={{ width: '18rem'}}>
@@ -69,7 +69,7 @@ const Ciorbe = (props) => {
                 <Card.Title>Ciorbă țărănească de văcuță</Card.Title>
                 <Card.Text>Greutate: 400g</Card.Text>
                 <Card.Text>Preț: 9.30 lei</Card.Text>
-                <Button style={{backgroundColor: '#192041'}}>Comandă</Button>
+                <Button style={{backgroundColor: '#192041'}}>Adaugă în coș</Button>
             </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -78,7 +78,7 @@ const Ciorbe = (props) => {
                 <Card.Title>Ciorbă de perișoare</Card.Title>
                 <Card.Text>Greutate: 400g</Card.Text>
                 <Card.Text>Preț: 5.52 lei</Card.Text>
-                <Button style={{backgroundColor: '#192041'}}>Comandă</Button>
+                <Button style={{backgroundColor: '#192041'}}>Adaugă în coș</Button>
             </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -87,7 +87,7 @@ const Ciorbe = (props) => {
                 <Card.Title>Ciorbă de burtă</Card.Title>
                 <Card.Text>Greutate: 400g</Card.Text>
                 <Card.Text>Preț: 9.92 lei</Card.Text>
-                <Button style={{backgroundColor: '#192041'}}>Comandă</Button>
+                <Button style={{backgroundColor: '#192041'}}>Adaugă în coș</Button>
             </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -96,7 +96,7 @@ const Ciorbe = (props) => {
                 <Card.Title>Supă de pui cu găluște de griș</Card.Title>
                 <Card.Text>Greutate: 400g</Card.Text>
                 <Card.Text>Preț: 5.75 lei</Card.Text>
-                <Button style={{backgroundColor: '#192041'}}>Comandă</Button>
+                <Button style={{backgroundColor: '#192041'}}>Adaugă în coș</Button>
             </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -105,7 +105,7 @@ const Ciorbe = (props) => {
                 <Card.Title>Cremă de roșii cu crutoane</Card.Title>
                 <Card.Text>Greutate: 400/50g</Card.Text>
                 <Card.Text>Preț: 6.70 lei</Card.Text>
-                <Button style={{backgroundColor: '#192041'}}>Comandă</Button>
+                <Button style={{backgroundColor: '#192041'}}>Adaugă în coș</Button>
             </Card.Body>
         </Card>
         </div>

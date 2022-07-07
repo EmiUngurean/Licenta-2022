@@ -6,6 +6,8 @@ const Despre = () => {
   return (
     <div className='despre'>
     <div className='container'>
+    <h1 className='h1Gallery'>Despre noi</h1>
+      <hr />
       <div className='infdo'>
         <div className="row"> 
         <div className="column">

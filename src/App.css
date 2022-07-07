@@ -243,7 +243,7 @@
 
 .contact,
 .despre {
-    margin: 50px;
+    margin: 40px;
 }
 
 .contactImage,
@@ -293,7 +293,13 @@
 .pui,
 .porc,
 .vita,
-.peste {
+.peste,
+.garnituri,
+.salate,
+.produseExtra,
+.desert,
+.altePreparate,
+.bauturi {
     padding: 10px;
 }
 
@@ -320,4 +326,104 @@
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* 
+////////////// dddddddddddddddddddddddddddddddddddd*/
+
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+    }
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
+
+.loginBtn {
+    padding: 10px;
+}
+
+.btnFinalComanda {
+    position: relative;
+    left: 310px;
+}
+
+
+/* modal register */
+
+.form1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 550px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.form1-body {
+    padding: 60px 100px;
+}
+
+.form1-body>* {
+    padding: 10px;
+}
+
+.form1__label {
+    width: 60%;
+}
+
+.form1__input {
+    width: 100%;
+}
+
+.footer1 {
+    text-align: center;
+}
+
+.btnConectare {
+    position: relative;
+    top: 10px;
+}
+
+.pLogin {
+    position: relative;
+    top: 15px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.registerBtn {
+    position: relative;
+    top: -30px;
+}
+
+
+/* register */
+
+.form2 {
+    background: url(../src/assets/bodyHomePage/p2.webp) center;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 2px;
+}
+
+.form2-body {
+    padding: 60px 90px;
+}
+
+.form2-body>* {
+    padding: 10px;
+}
+
+.form2__label {
+    width: 60%;
+}
+
+.form2__input {
+    width: 100%;
 }
